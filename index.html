@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de zapatos</title>
+    
+    <!-- CDN de Bootstrap y Bootstrap icons-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  </head>
+  <body>
+
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+
+        <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <span class="fs-4">🩰👠🥿👟 ZapateriaSport 👟🥿👠🩰</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="https://www.facebook.com/eliabjselvacruz" class="nav-link">
+                  Whatsapp
+                </a>
+        </li>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+              <a href="https://www.facebook.com/eliabjselvacruz" class="nav-link">
+                Telegram
+              </a>
+        </li>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+              <a href="https://www.facebook.com/eliabjselvacruz" class="nav-link">
+                TikTok
+              </a>
+        </li>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+              <a href="https://www.facebook.com/eliabjselvacruz" class="nav-link">
+                Twitter
+              </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="https://www.facebook.com/eliabjselvacruz" class="nav-link active">
+              Facebook
+                  <i class="bi-facebook"></i>
+            </a>
+        </li>
+      </ul>
+
+    </header>
+</div>
+
+  <div class="px-4 text-center">
+    <div class="container">
+        <main>
+          <!-- Encabezado de Formulario-->
+          <h4 class="mb-3 mt-2">Registro de Cita</h4>
+
+          <form class="needs-validation mt-5"
+          action="https://formsubmit.co/rubiom831@gmail.com"
+          method="POST"
+          novalidate>         
+
+           <!-- Estructura del formulario-->
+           <div class="row g-3">
+
+              <!-- Nombre del cliente-->
+              <div class="col-lg-5">
+                   <label for="nombreP" class="form-label">Nombre del Cliente:</label>
+                   <input type="text" name="Nombre-P" class="form-control" id="nombreP"
+                     placeholder="Ingrese su nombre" required>
+              </div>
+               <div class="valid-feedback">
+                   ¡Correcto! 😁
+              </div>
+              <div class="invalid-feedback">
+                   Debe ingresar su nombre. 🫤
+              </div>
+
+              <div class="col-lg-5">
+                <label for="apellidoP" class="form-label">Apellido del Cliente:</label>
+                <input type="text" name="Apellido-P" class="form-control" id="apellidoP"
+                  placeholder="Ingrese su apellido" required>
+              </div>
+              <div class="valid-feedback">
+                  ¡Correcto! 😁
+              </div>
+              <div class="invalid-feedback">
+                  Debe ingresar su apellido. 🫤
+              </div>
+
+              <div class="col-lg-5">
+
+                  <label for="precio" class="form-label">Talla de Zapato:</label>
+                  <input type="number" min="1" max="10000"  name="Precio" class="form-control" id="precio" required>
+              </div>
+              <div class="valid-feedback">
+                  ¡Correcto! 😁
+              </div>
+              <div class="invalid-feedback">
+                  Debe ingresar el número de su calzado. 🫤
+              </div>
+
+              <div class="col-lg-5">
+                  <label for="marca preferida" class="form-label">Marca Preferida:</label>
+                  <select class="form-control" name="Marca Preferida" id="marca preferida" required>
+                      <option selected>Selecciona</option>
+                      <option value="Adidas">ADIDAS</option>
+                      <option value="Nike">NIKE</option>
+                      <option value="Puma">PUMA</option>
+                      <option value="Sperry">SPERRY</option>
+                      <option value="Tommy Hilfiger">TOMMY HILFIGER</option>
+                      <option value="Under Armour">UNDER ARMOUR</option>
+                      <option value="Otros">OTROS</option>
+                </select>
+              </div>
+                  <div class="valid-feedback">
+                      ¡Correcto! 😁
+                  </div>
+                  <div class="invalid-feedback">
+                      Debe seleccionar la Marca Preferida de Zapatos. 🫤
+                  </div>
+                  
+               <div class="col-lg-5">
+                    <label for="género" class="form-label">Género:</label>
+                      <select class="form-control" name="Género" id="género" required>
+                        <option selected>Selecciona</option>
+                        <option value="M">M</option>
+                        <option value="F">F</option>
+                  </select>
+               </div>
+               <div class="valid-feedback">
+                    ¡Correcto! 😁
+               </div>
+               <div class="invalid-feedback">
+                    Debe seleccionar su Género. 🫤
+               </div>
+
+               <div class="col-lg-5">
+                    <label for="solicitud" class="form-label">Solicitud:</label>
+                      <select class="form-control" name="Solicitud" id="solicitud" required>
+                        <option selected>Selecciona</option>
+                        <option value="Comprar">Comprar</option>
+                        <option value="Encargo">Encargo</option>
+                  </select>
+               </div>
+               <div class="valid-feedback">
+                    ¡Correcto! 😁
+               </div>
+               <div class="invalid-feedback">
+                    Debe seleccionar su Solicitud a la Tienda. 🫤
+               </div>
+
+               <div class="col-lg-5">
+                <label for="gmailP" class="form-label">Gmail:</label>
+                <input type="text" name="Gmail-P" class="form-control" id="gmailP"
+                  placeholder="Ingrese su Correo electrónico" required>
+               </div>
+               <div class="valid-feedback">
+                   ¡Correcto! 😁
+               </div>
+               <div class="invalid-feedback">
+                   Debe ingresar su Gmail. 🫤
+             </div>
+
+             <div class="col-lg-5">
+              <label for="telefono" class="form-label">Teléfono:</label>
+              <input type="tel" name="Telefono" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono" required>
+              <div class="valid-feedback">
+                ¡Correcto! 😁
+              </div>
+              <div class="invalid-feedback">
+                Debe ingresar su número de teléfono.🫤🫤
+              </div>
+            </div>
+            
+
+             <div class="col-lg-5">
+              <label for="fechaCita" class="form-label">Fecha de la cita:</label>
+              <input type="date" name="Fecha-Cita" class="form-control" id="fechaCita" required>
+              <div class="valid-feedback">
+                ¡Correcto!
+              </div>
+              <div class="invalid-feedback">
+                Debe ingresar la fecha de la cita.
+              </div>
+             </div>
+
+               </div>                    
+                  <hr class="my-4">
+               </div>
+
+            <button
+              type="submit"
+              class="btn btn-primary btn-lg"
+              onclick="realizarCita()">
+              GENERAR CITA
+            </button>
+
+          </div>                    
+             <hr class="my-4">
+          </div>
+
+              </form>
+          </main>
+      </div>
+</div>
+    
+    <!-- CDN del JavaScript Bootstrap-->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous">
+    </script>
+
+    <!-- CND del JsPdf-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js">
+       
+       (() => {
+            'use strict'
+
+            const forms = document.querySelectorAll('.needs-validation')
+
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if(!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+
+ <script>
+  //Crea una nueva instancia del objeto "jsPDF" y 
+  //lo asigna a la variable constante "doc" 
+  const doc = new jsPDF();
+
+  //El método "setFillColor" del objeto "doc" para
+  //establecer el color de relleno del siguiente elemento
+  doc.setFillColor (28, 41, 51);
+
+  //El método "rect" del objeto "doc" para dibujar
+  //un rectángulo en la página PDF doc.rect(0, 0, 220, 60, 'f');
+  //Agrega una imagen al documento PDF. Los parámetros son //la imagen (imageData), la posición en la que se debe //colocar la imagen en el documento (10,8), y las
+  //dimensiones de la imagen (106, 34).
+  doc.addImage(imageData, 10, 8, 106, 34);
+
+  //Establece el tamaño de la fuente para el
+  //texto que se va a agregar.
+  doc.setFontSize(14);
+
+  doc.setFontType("bold");
+  //Establece el tipo de fuente en negrita
+
+  doc.setTextColor(255, 255, 255);
+  //Establece el color del texto en blanco.
+
+  doc.text('WWSOLAR CALL CENTER NICA 2023', 12, 50);
+  //agrega el texto "WWSOLAR CALL CENTER NICA 2023" en
+  //la posición (12, 50) en el documento PDF.
+
+  let partes = fecha.split('-');
+  //Separa la fecha en partes usando el separador '-'.
+  //Esto se utiliza para obtener el día, mes y año de la fecha.
+
+  var fechadoc = partes [2] + '_' + partes [1] + '_' + partes[0];
+  //Toma las partes de la fecha y las concatena en un formato
+  //de fecha que se utiliza como parte del nombre del archivo PDF.
+  //En este caso, la fecha se concatena en el orden día_mes_año y
+  //se separa con guiones bajos para formar una cadena de texto.
+
+  const docpdf = '${nombreCliente} ${apellidoCliente} ${fechadoc}.pdf';
+  //Crea el nombre del archivo PDF utilizando el nombre del cliente, 
+  //el apellido y la fecha concatenados en una cadena de texto.
+  ///El nombre del archivo PDF se guarda en la constante docpdf.
+
+  doc.save(docpdf);
+  //Guarda el documento PDF con el nombre del archivo que se ha generado.
+  //El método save() es proporcionado por la biblioteca JSPDF y permite
+  //guardar el documento en el sistema de archivos local o
+  //descargarlo directamente en el navegador.
+  </script>
+
+</body>
+</html>
